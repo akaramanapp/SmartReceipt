@@ -1,4 +1,58 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Smart Receipt
+
+A React Native mobile application for scanning and managing receipts with automatic amount detection.
+
+## Features
+
+- 📸 Receipt scanning using camera
+- 🖼️ Import receipts from gallery
+- 💰 Automatic amount detection
+- 📊 Total expenses tracking
+- 📱 Modern UI with swipe-to-delete
+- 💾 Local storage for offline access
+
+## Tech Stack
+
+- React Native
+- TypeScript
+- AsyncStorage for data persistence
+- React Native Image Picker
+- React Native Gesture Handler
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+- React Native development environment setup
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/akaramanapp/SmartReceipt.git
+```
+
+2. Install dependencies
+```bash
+cd SmartReceipt
+npm install
+```
+
+3. Run the application
+```bash
+# For iOS
+npx pod-install
+npx react-native run-ios
+
+# For Android
+npx react-native run-android
+```
+
+## License
+
+This project is licensed under the MIT License.
 
 # Getting Started
 
@@ -66,7 +120,7 @@ This is one way to run your app — you can also build it directly from Android 
 
 Now that you have successfully run the app, let's make changes!
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
 
 When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
 
